@@ -13,9 +13,9 @@ namespace Metotlar
 
         }
 
-        public void Ekle2(string urunAdi, string aciklama, double fiyat, int stokAdedi)
+        public void Ekle2(string urunAdi, string urunAciklama, double urunFiyat, int stokAdedi)
         {
-            Console.WriteLine("Tebrikler.Sepete eklendi : " + urunAdi);
+            Console.WriteLine("Tebrikler.Sepete eklendi : " + "Ürün Adı: " + urunAdi + " " +  "Açıklama: " + urunAciklama + " " + "Fiyatı: " + urunFiyat + " " +  "Adedi: " + stokAdedi);
         }
     }
 }

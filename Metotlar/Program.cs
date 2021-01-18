@@ -7,8 +7,8 @@ namespace Metotlar
         static void Main(string[] args)
         {
             string urunAdi = "Elma";
-            double fiyati = 15;
-            string aciklama = "Amasya elması";
+            double urunFiyati = 15;
+            string urunAciklama = "Amasya elması";
 
             string[] meyveler = new string[] { };
 
@@ -42,8 +42,8 @@ namespace Metotlar
             sepetManager.Ekle(urun2);
 
             sepetManager.Ekle2("Armut", "Yeşil armut", 12, 10);
-            sepetManager.Ekle2("Elma", "Yeşil elma", 12, 8);
-            sepetManager.Ekle2("Karpuz", "Diyarbakır Karpuzu", 12, 7);
+            sepetManager.Ekle2("Elma", "Yeşil elma", 15, 8);
+            sepetManager.Ekle2("Karpuz", "Diyarbakır Karpuzu", 80, 7);
         }
     }
 }
